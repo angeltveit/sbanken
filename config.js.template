@@ -1,0 +1,7 @@
+module.exports = {
+  clientId: 'CLIENTID',
+  customerId: 'YOUR_PERSONAL_NUMBER',
+  account: 'MASTER_ACCOUNT_NUMBER', // You can list accounts from getAccounts() method
+  apiUri: 'https://api.sbanken.no/bank/api/v1', // Shuld be the same
+  secret: 'GENERATED_PASSWORD', // Password generated in sBanken
+}
